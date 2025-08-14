@@ -109,24 +109,24 @@ This is a **production-ready, enterprise-grade data engineering platform** desig
 ## 📸 Screenshots & Visual Proof
 
 ### **Data Pipeline Execution**
-![Terminal Results - Data Processing](https://raw.githubusercontent.com/fidelfunez/RegionalBankDataPlatform/main/work_screenshots/Screenshot%202025-08-14%20at%2011.16.34%20AM.png)
+![Terminal Results - Data Processing](https://github.com/fidelfunez/RegionalBankDataPlatform/blob/main/work_screenshots/Screenshot%202025-08-14%20at%2011.16.34%20AM.png?raw=true)
 *Data processing results showing 55,580 records processed with 94.92% success rate*
 
-![Business Insights & Analytics](https://raw.githubusercontent.com/fidelfunez/RegionalBankDataPlatform/main/work_screenshots/Screenshot%202025-08-14%20at%2011.17.23%20AM.png)
+![Business Insights & Analytics](https://github.com/fidelfunez/RegionalBankDataPlatform/blob/main/work_screenshots/Screenshot%202025-08-14%20at%2011.17.23%20AM.png?raw=true)
 *Business insights showing top countries by transaction volume and sector analysis*
 
 ### **Project Structure & Organization**
-![Project Structure](https://raw.githubusercontent.com/fidelfunez/RegionalBankDataPlatform/main/work_screenshots/Screenshot%202025-08-14%20at%2011.18.23%20AM.png)
+![Project Structure](https://github.com/fidelfunez/RegionalBankDataPlatform/blob/main/work_screenshots/Screenshot%202025-08-14%20at%2011.18.23%20AM.png?raw=true)
 *Professional project organization with complete infrastructure as code*
 
 ### **Code Quality & Implementation**
-![Code Quality - Database Schema](https://raw.githubusercontent.com/fidelfunez/RegionalBankDataPlatform/main/work_screenshots/Screenshot%202025-08-14%20at%2011.26.14%20AM.png)
+![Code Quality - Database Schema](https://github.com/fidelfunez/RegionalBankDataPlatform/blob/main/work_screenshots/Screenshot%202025-08-14%20at%2011.26.14%20AM.png?raw=true)
 *Clean, production-ready Python code with proper database schema design*
 
-![Code Quality - Data Loading](https://raw.githubusercontent.com/fidelfunez/RegionalBankDataPlatform/main/work_screenshots/Screenshot%202025-08-14%20at%2011.26.40%20AM.png)
+![Code Quality - Data Loading](https://github.com/fidelfunez/RegionalBankDataPlatform/blob/main/work_screenshots/Screenshot%202025-08-14%20at%2011.26.40%20AM.png?raw=true)
 *Professional data loading functions with error handling and logging*
 
-![Code Quality - Analytics Queries](https://raw.githubusercontent.com/fidelfunez/RegionalBankDataPlatform/main/work_screenshots/Screenshot%202025-08-14%20at%2011.26.55%20AM.png)
+![Code Quality - Analytics Queries](https://github.com/fidelfunez/RegionalBankDataPlatform/blob/main/work_screenshots/Screenshot%202025-08-14%20at%2011.26.55%20AM.png?raw=true)
 *Complex SQL analytics queries with CTEs and business logic*
 
 ## 🚀 How to Reproduce
