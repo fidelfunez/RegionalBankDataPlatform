@@ -1,0 +1,33 @@
+[0m22:52:28.115056 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042a9880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107859fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107859ee0>]}
+
+
+============================== 22:52:28.118086 | dd51e246-1f42-4cc9-a04a-0614820fe204 ==============================
+[0m22:52:28.118086 [info ] [MainThread]: Running with dbt=1.7.3
+[0m22:52:28.118459 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/fidelfunez/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/Users/fidelfunez/Desktop/RegionalBankDataPlatform/dbt/regional_bank_demo/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:52:28.118838 [info ] [MainThread]: dbt version: 1.7.3
+[0m22:52:28.119062 [info ] [MainThread]: python version: 3.9.6
+[0m22:52:28.119264 [info ] [MainThread]: python path: /Library/Developer/CommandLineTools/usr/bin/python3
+[0m22:52:28.119481 [info ] [MainThread]: os info: macOS-15.5-arm64-arm-64bit
+[0m22:52:28.122930 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.sqlite'
+[0m22:52:28.123301 [info ] [MainThread]: Using profiles dir at /Users/fidelfunez/.dbt
+[0m22:52:28.123524 [info ] [MainThread]: Using profiles.yml file at /Users/fidelfunez/.dbt/profiles.yml
+[0m22:52:28.123728 [info ] [MainThread]: Using dbt_project.yml file at /Users/fidelfunez/Desktop/RegionalBankDataPlatform/dbt/regional_bank_demo/dbt_project.yml
+[0m22:52:28.167523 [info ] [MainThread]: Configuration:
+[0m22:52:28.167842 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m22:52:28.168073 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m22:52:28.168290 [info ] [MainThread]: Required dependencies:
+[0m22:52:28.168566 [debug] [MainThread]: Executing "git --help"
+[0m22:52:28.193722 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:52:28.194277 [debug] [MainThread]: STDERR: "b''"
+[0m22:52:28.194514 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:52:28.194744 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m22:52:28.194968 [info ] [MainThread]: [31m1 check failed:[0m
+[0m22:52:28.195176 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "regional_bank_demo", target "dev" invalid: Runtime Error
+    Could not find adapter type sqlite!
+
+
+[0m22:52:28.221554 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042a9880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103a2c0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1078a3ca0>]}
+[0m22:52:28.221998 [debug] [MainThread]: Flushing usage events

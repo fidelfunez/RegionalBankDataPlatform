@@ -1,0 +1,9 @@
+sector_code,sector_name,sector_category,priority_level
+AGRICULTURE,Agriculture,Primary,High
+EDUCATION,Education,Social,High
+HEALTH,Healthcare,Social,High
+INFRASTRUCTURE,Infrastructure,Physical,Medium
+SMALL_BUSINESS,Small Business,Financial,Medium
+ENERGY,Energy,Physical,High
+WATER_SANITATION,Water & Sanitation,Physical,High
+TRANSPORTATION,Transportation,Physical,Medium

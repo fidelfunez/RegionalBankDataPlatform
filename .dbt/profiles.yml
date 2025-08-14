@@ -1,0 +1,44 @@
+regional_bank:
+  target: dev
+  outputs:
+    dev:
+      type: redshift
+      host: "{{ env_var('REDSHIFT_HOST') }}"
+      user: "{{ env_var('REDSHIFT_USER') }}"
+      password: "{{ env_var('REDSHIFT_PASSWORD') }}"
+      port: 5439
+      dbname: "{{ env_var('REDSHIFT_DATABASE') }}"
+      schema: "{{ env_var('REDSHIFT_SCHEMA', 'public') }}"
+      threads: 4
+      keepalives_idle: 0
+      connect_timeout: 10
+      retries: 1
+      iam_profile: "{{ env_var('AWS_PROFILE', 'default') }}"
+      
+    staging:
+      type: redshift
+      host: "{{ env_var('REDSHIFT_STAGING_HOST') }}"
+      user: "{{ env_var('REDSHIFT_STAGING_USER') }}"
+      password: "{{ env_var('REDSHIFT_STAGING_PASSWORD') }}"
+      port: 5439
+      dbname: "{{ env_var('REDSHIFT_STAGING_DATABASE') }}"
+      schema: "{{ env_var('REDSHIFT_STAGING_SCHEMA', 'public') }}"
+      threads: 4
+      keepalives_idle: 0
+      connect_timeout: 10
+      retries: 1
+      iam_profile: "{{ env_var('AWS_PROFILE', 'default') }}"
+      
+    prod:
+      type: redshift
+      host: "{{ env_var('REDSHIFT_PROD_HOST') }}"
+      user: "{{ env_var('REDSHIFT_PROD_USER') }}"
+      password: "{{ env_var('REDSHIFT_PROD_PASSWORD') }}"
+      port: 5439
+      dbname: "{{ env_var('REDSHIFT_PROD_DATABASE') }}"
+      schema: "{{ env_var('REDSHIFT_PROD_SCHEMA', 'public') }}"
+      threads: 8
+      keepalives_idle: 0
+      connect_timeout: 10
+      retries: 3
+      iam_profile: "{{ env_var('AWS_PROFILE', 'default') }}"
