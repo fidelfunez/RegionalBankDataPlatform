@@ -258,4 +258,4 @@ This platform enables the Regional Development Bank to:
 
 ---
 
-*This project demonstrates advanced data engineering skills including cloud architecture, real-time processing, data quality, governance, monitoring, and scalable analytics solutions.*
+*This project started as a learning experiment and turned into something I'm genuinely proud of. It's not perfect (what code ever is?), but it represents my journey into data engineering - from "what's a data lake?" to building a full-stack platform that actually processes real data. Built with lots of coffee, Stack Overflow searches, and the occasional "why isn't this working?" moments that every developer knows too well.*
